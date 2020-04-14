@@ -50,7 +50,7 @@ computerMove = getMoveName (randomNumber);
 console.log ('computer has choosen: ' + computerMove);
 
 
-buttonClear.addEventListener ('click', function () {buttonClicked ('Reset Button');}); computerMove = getMoveName (randomNumber);
+buttonClear.addEventListener ('click', function () {buttonClicked ('Reset Button');}); 
 buttonRock.addEventListener ('click', function () {buttonClicked  ('stone');  +  displayResult ('stone', computerMove);});
 buttonPaper.addEventListener ('click', function () {buttonClicked  ('paper')  + displayResult ('paper', computerMove)});
 buttonScissors.addEventListener ('click', function () {buttonClicked  ('scissors')  + displayResult ('scissors', computerMove)});
